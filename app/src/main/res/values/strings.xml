@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="title_activity_cadastro">cadastro</string>
+    <string name="title_activity_mapa__cliente">Map</string>
+</resources>

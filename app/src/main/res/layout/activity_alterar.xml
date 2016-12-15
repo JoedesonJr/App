@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_cadastro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.Alterar_UsuarioActivity"
+    android:background="#44378b">
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:inputType="text"
+        android:hint="Login"
+        android:id="@+id/ed_login_form"
+        android:textColor="#FAAC58"
+        android:textColorHint="#969595" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Nome Completo"
+        android:id="@+id/ed_nome_form"
+        android:textColor="#FAAC58"
+        android:textColorHint="#969595" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Telefone"
+        android:id="@+id/ed_telefone_form"
+        android:textColor="#FAAC58"
+        android:textColorHint="#969595" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:hint="Senha"
+        android:id="@+id/ed_senha_form"
+        android:textColor="#FAAC58"
+        android:textColorHint="#969595" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:hint="Endereço"
+        android:id="@+id/ed_endereco_form"
+        android:textColor="#FAAC58"
+        android:textColorHint="#969595" />
+
+    <Switch
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Técnico em Informática?"
+        android:id="@+id/ed_tecnico"
+        android:layout_gravity="center"
+        android:textColor="#969595"
+        android:textSize="17dp"
+        android:textColorHint="#969595"
+        android:checked="false"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:layout_marginTop="30dp"
+        android:id="@+id/editar"
+        android:onClick="AlterarUsuario"
+        android:layout_gravity="center_horizontal"
+        android:background="#414a98"
+        android:textColor="#cbc9c9"
+        />
+
+</LinearLayout>

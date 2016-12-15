@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.LoginActivity"
+    android:background="#44378b"
+>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:inputType="text"
+        android:hint="Usuário"
+        android:id="@+id/ed_usuario_form"
+        android:textColor="#FAAC58"
+        android:textColorHint="#969595" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Senha"
+        android:id="@+id/ed_senha_form"
+        android:textColor="#FAAC58"
+        android:textColorHint="#969595" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:layout_marginTop="20dp"
+        android:id="@+id/logar"
+        android:onClick="Login"
+        android:layout_gravity="center_horizontal"
+        android:background="#414a98"
+        android:textColor="#cbc9c9"
+    />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar-se"
+        android:layout_marginTop="25dp"
+        android:id="@+id/redirect_cadastro"
+        android:onClick="Redirect_Cadastro"
+        android:layout_gravity="center_horizontal"
+        android:background="#414a98"
+        android:textColor="#cbc9c9"
+    />
+
+</LinearLayout>
